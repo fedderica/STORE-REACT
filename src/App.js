@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Header } from "./Componentes/Header";
-import { ProductosLista} from "./Componentes/Productos/index";
+import { ProductosLista} from "./Componentes/Productos/paginas";
 
 function App() {
   return (
