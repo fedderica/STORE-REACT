@@ -7,17 +7,17 @@ export const Header = () => {
             <div className="menu">
                 <box-icon name="menu"> </box-icon>
                 </div>
-                <a href="#">
+                <a href="#"> 
                     <div className="logo">
                 <img src={Nike} alt="logo" width="150" />
             </div>
             </a>
             <ul>
             <li>
-                <a href="#"> INICIO</a>
+                <a href="#"> START </a>
             </li>   
             <li>
-        <a href="#"> PRODUCTOS </a>
+        <a href="#"> PRODUCTS </a>
             </li>
             </ul>
             <div className="cart">
