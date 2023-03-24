@@ -1,4 +1,5 @@
 import React from 'react'
+import img from "../../images/img01.jpg";
 
 export const ProductosLista = () => {
     return ( 
