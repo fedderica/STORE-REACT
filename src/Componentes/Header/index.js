@@ -1,23 +1,25 @@
 import React from 'react';
 import Nike from "../../images/Nike.jpg";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
     return ( 
             <header>
+            <Link to="#"> </Link>
             <div className="menu">
                 <box-icon name="menu"> </box-icon>
                 </div>
-                <a href="#"> 
+                <a href="#">  
                     <div className="logo">
                 <img src={Nike} alt="logo" width="150" />
             </div>
             </a>
             <ul>
             <li>
-                <a href="#"> START </a>
+                <Link to="/"> START </Link>
             </li>   
             <li>
-        <a href="#"> PRODUCTS </a>
+        <Link to="/productos"> PRODUCTS </Link>
             </li>
             </ul>
             <div className="cart">
